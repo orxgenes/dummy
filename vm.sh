@@ -18,8 +18,6 @@ echo "==> Instalando open-vm-tools y drivers de VMware"
 sudo pacman -S --needed --noconfirm \
   open-vm-tools \
   gtkmm3 \
-  xf86-input-vmmouse \
-  xf86-video-vmware \
   mesa
 
 echo "==> Habilitando servicios de VMware"
